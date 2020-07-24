@@ -2,7 +2,7 @@
 describe("Inputs and submit button", () => {
     it("can navigate to the site", () => {
       // this is setup for the actual test
-      cy.visit("http://localhost:3001/pizza");
+      cy.visit("http://localhost:3002/pizza");
       // assert that the site we landed at is the correct one
       cy.url().should("include", "localhost");
     });
