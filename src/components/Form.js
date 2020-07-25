@@ -12,7 +12,7 @@ const PizzaFormText = styled.div`
   padding: 3%;
   h2,
   h3 {
-    color: black;
+    color: white;
   }
   button {
     color: black;
@@ -164,7 +164,7 @@ export default function PizzaForm(props) {
 
         <Instruction>
           <label>Special Instructions?</label>
-          <input
+          <textarea
             value={values.specialInstructions}
             name="specialInstructions"
             type="text"
